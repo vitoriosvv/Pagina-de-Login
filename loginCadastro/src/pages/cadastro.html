@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/icons/iconregister.svg">
+    <title>Página de Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <h3>Experimente os privilégios de usar nosso site!<h3>
+                <h1>Faca seu Cadastro</h1>
+
+                <form action="#">
+                    <form action="#">
+                        <div>
+                            <label for="username">Nome:</label>
+                            <input type="text" id="username" name="username" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div>
+                            <label for="useruni">CPF:</label>
+                            <input type="number" id="useruni" name="useruni" placeholder="000.000.000-00" required>
+                        </div>
+
+                        <div>
+                            <label for="nacionalidade">Nacionalidade:</label>
+                            <select name="nacionalidade" id="nacionalidade">
+                                <option value="" selected disabled>Selecione</option>
+                                <option value="china">China</option>
+                                <option value="espanha">Espanha</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="canada">Canadá</option>
+                                <option value="colombia">Colombia</option>
+                                <option value="chile">Chile</option>
+                                <option value="portugal">Portugal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="genero">Genero:</label>
+                            <select name="genero" id="genero">
+                                <option value="" selected disabled>Selecione</option>
+                                <option value="masculino">Masculino</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="datanasc">Data de Nascimento:</label>
+                            <input type="date" id="datanasc" name="datanasc" required>
+                        </div>
+
+                        <div>
+                            <label for="useremail">Email:</label>
+                            <input type="text" id="useremail" name="useremail" placeholder="seuemail@gimal.com"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="usersenha1">Senha:</label>
+                            <input type="text" id="usersenha1" name="usersenha1" placeholder="Crie sua senha" required>
+                        </div>
+
+                        <div>
+                            <label for="usersenha1">Confirme sua senha:</label>
+                            <input type="text" id="usersenha2" name="usersenha2" placeholder="confirme sua senha"
+                                required>
+                        </div>
+                        <button type="reset">Limpar </button>
+                    </form>
+                    <input type="checkbox">
+                    <label for="termos">Eu li e concordo com os termos de uso</label>
+
+                    <button type="submit">Cadastrar </button>
+
+    </main>
+</body>
+
+</html>
