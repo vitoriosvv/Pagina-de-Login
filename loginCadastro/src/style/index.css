@@ -1,1 +1,133 @@
 /* #001c2b e #057468 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(0, 28, 43), rgb(5, 116, 104));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conect-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.descript-content {
+    background: rgba(0, 10, 20, 0.4);
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    padding-left: 5rem;
+    margin-left: 5rem;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgba(5, 116, 104, 0.4);
+    color: #ffffff;
+}
+
+.descript-content h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.descript-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(5, 116, 104);
+}
+
+.descript-content a {
+    color: #555d68;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.descript-content a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.descript-content img {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 0rem;
+}
+
+.form-content {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5.55rem;
+    border-radius: 0 12px 12px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.user-content, 
+.pass-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.user-content label,
+.pass-content label {
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+form input {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding: 0.75rem;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+form input::placeholder {
+    color: #a0aec0;
+}
+
+form input:focus {
+    border-color: rgb(5, 116, 104);
+}
+
+#btnEntrar {
+    display: block;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(5, 116, 104);
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    transition: border-color ease-in-out 0.4s;
+}
+
+#btnEntrar:hover {
+    background-color: rgb(4, 94, 84);
+    border: solid #555d68 1px;
+}
